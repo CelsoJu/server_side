@@ -4,18 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export && vercel",
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
     "next": "^9.4.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "vercel": "^19.1.1"
   }
 }
